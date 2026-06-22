@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BT3 Broadcast Overlay</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="overlay">
+
+    <!-- Fondo del overlay -->
+    <img id="overlay-bg" src="../assets/overlay.png">
+
+    <!-- Caster Izquierdo -->
+    <div class="caster left">
+
+        <div class="name" id="left-name">
+            FENUX
+        </div>
+
+        <div class="social">
+            <img src="../assets/instagram.svg">
+            <span id="left-social">@fenux_bt3</span>
+        </div>
+
+    </div>
+
+    <!-- Caster Derecho -->
+    <div class="caster right">
+
+        <div class="name" id="right-name">
+            PICACHOLE
+        </div>
+
+        <div class="social">
+            <img src="../assets/instagram.svg">
+            <span id="right-social">@picachole</span>
+        </div>
+
+    </div>
+
+    <!-- Ronda -->
+    <div id="round">
+        TOP 16
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

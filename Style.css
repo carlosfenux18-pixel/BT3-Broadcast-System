@@ -1,0 +1,92 @@
+/* ===========================
+   BT3 Broadcast System
+   Overlay Style v1.0
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:1920px;
+    height:1080px;
+    overflow:hidden;
+    background:transparent;
+    font-family:'Rajdhani',sans-serif;
+}
+
+#overlay{
+    position:relative;
+    width:1920px;
+    height:1080px;
+}
+
+#overlay-bg{
+    position:absolute;
+    left:50%;
+    bottom:35px;
+    transform:translateX(-50%);
+    width:1500px;
+    pointer-events:none;
+}
+
+/* CASTERS */
+
+.caster{
+    position:absolute;
+    width:430px;
+}
+
+.left{
+    left:220px;
+    bottom:120px;
+    text-align:center;
+}
+
+.right{
+    right:220px;
+    bottom:120px;
+    text-align:center;
+}
+
+.name{
+    color:white;
+    font-size:52px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-shadow:
+        0 0 10px #00bfff,
+        0 0 20px #00bfff;
+}
+
+.social{
+    margin-top:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    color:white;
+    font-size:28px;
+}
+
+.social img{
+    width:28px;
+}
+
+/* RONDA */
+
+#round{
+    position:absolute;
+    left:50%;
+    bottom:70px;
+    transform:translateX(-50%);
+    color:white;
+    font-size:34px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-shadow:
+        0 0 8px #00bfff;
+}
